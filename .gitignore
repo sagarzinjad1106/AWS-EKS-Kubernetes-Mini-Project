@@ -1,0 +1,19 @@
+
+# AWS Credentials
+.aws/
+credentials
+*.pem
+*.key
+
+# Kubernetes Credentials
+.kube/
+kubeconfig
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# System Files
+.DS_Store
+Thumbs.db

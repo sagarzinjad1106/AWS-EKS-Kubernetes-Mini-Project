@@ -1,0 +1,25 @@
+aws sts get-caller-identity
+
+aws eks update-kubeconfig --region ap-south-1 --name eks-cluster1
+
+kubectl get nodes
+
+kubectl create deployment nginx --image=nginx
+
+kubectl get deployments
+
+kubectl get pods
+
+kubectl scale deployment nginx --replicas=4
+
+kubectl get pods
+
+kubectl expose deployment nginx --port=80 --type=LoadBalancer
+
+kubectl get svc
+
+kubectl get all
+
+kubectl describe pods
+
+kubectl logs POD_NAME
